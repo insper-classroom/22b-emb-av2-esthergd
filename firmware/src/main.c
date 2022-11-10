@@ -112,9 +112,6 @@ static void task_afec(void *pvParameters){
 	adcData adc;
 	colors color;
 	uint valor;
-	uint verm;
-	uint verde;
-	uint azul;
 	
 	for(;;){
 		if ( xQueueReceive(xQueueAFEC, &adc, ( TickType_t ) 500) ){

@@ -13159,11 +13159,11 @@ LOAD c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin
                 0x20400b88        0x4 src/ASF/thirdparty/freertos/freertos-8.2.3/Source/timers.o
  .bss.xTimerQueue
                 0x20400b8c        0x4 src/ASF/thirdparty/freertos/freertos-8.2.3/Source/timers.o
- .bss.pwm_channel_pin0.11746
+ .bss.pwm_channel_pin0.11743
                 0x20400b90       0x3c src/main.o
- .bss.pwm_channel_pin1.11747
+ .bss.pwm_channel_pin1.11744
                 0x20400bcc       0x3c src/main.o
- .bss.pwm_channel_pin2.11748
+ .bss.pwm_channel_pin2.11745
                 0x20400c08       0x3c src/main.o
  .bss.__malloc_current_mallinfo
                 0x20400c44       0x28 c:/program files (x86)/atmel/studio/7.0/toolchain/arm/arm-gnu-toolchain/bin/../lib/gcc/arm-none-eabi/6.3.1/../../../../arm-none-eabi/lib/thumb/v7e-m\libc.a(lib_a-mallocr.o)
@@ -13409,7 +13409,7 @@ OUTPUT(RTOS-OLED-Xplained-Pro.elf elf32-littlearm)
  .comment       0x00000059       0x5a src/ASF/thirdparty/freertos/freertos-8.2.3/Source/timers.o
  .comment       0x00000059       0x5a src/main.o
 
-.debug_info     0x00000000    0x2407e
+.debug_info     0x00000000    0x2405d
  .debug_info    0x00000000      0xa8e src/ASF/common/services/sleepmgr/sam/sleepmgr.o
  .debug_info    0x00000a8e     0x2456 src/ASF/sam/drivers/afec/afec.o
  .debug_info    0x00002ee4     0x20fd src/ASF/sam/drivers/pwm/pwm.o
@@ -13433,7 +13433,7 @@ OUTPUT(RTOS-OLED-Xplained-Pro.elf elf32-littlearm)
  .debug_info    0x00018c76     0x26ec src/ASF/thirdparty/freertos/freertos-8.2.3/Source/queue.o
  .debug_info    0x0001b362     0x34b4 src/ASF/thirdparty/freertos/freertos-8.2.3/Source/tasks.o
  .debug_info    0x0001e816     0x1b3e src/ASF/thirdparty/freertos/freertos-8.2.3/Source/timers.o
- .debug_info    0x00020354     0x3d2a src/main.o
+ .debug_info    0x00020354     0x3d09 src/main.o
 
 .debug_abbrev   0x00000000     0x4883
  .debug_abbrev  0x00000000      0x1b2 src/ASF/common/services/sleepmgr/sam/sleepmgr.o
@@ -13727,7 +13727,7 @@ OUTPUT(RTOS-OLED-Xplained-Pro.elf elf32-littlearm)
  .debug_line    0x00010e0f      0xdaf src/ASF/thirdparty/freertos/freertos-8.2.3/Source/timers.o
  .debug_line    0x00011bbe     0x132c src/main.o
 
-.debug_str      0x00000000    0x975fd
+.debug_str      0x00000000    0x975ed
  .debug_str     0x00000000    0x81a0b src/ASF/common/services/sleepmgr/sam/sleepmgr.o
                               0x820ae (size before relaxing)
  .debug_str     0x00081a0b     0x5428 src/ASF/sam/drivers/afec/afec.o
@@ -13774,8 +13774,8 @@ OUTPUT(RTOS-OLED-Xplained-Pro.elf elf32-littlearm)
                               0x8ac89 (size before relaxing)
  .debug_str     0x00092ac1      0x483 src/ASF/thirdparty/freertos/freertos-8.2.3/Source/timers.o
                               0x8a6d9 (size before relaxing)
- .debug_str     0x00092f44     0x46b9 src/main.o
-                              0x91663 (size before relaxing)
+ .debug_str     0x00092f44     0x46a9 src/main.o
+                              0x91653 (size before relaxing)
 
 .debug_loc      0x00000000     0xa6a0
  .debug_loc     0x00000000      0xa8b src/ASF/sam/drivers/afec/afec.o
